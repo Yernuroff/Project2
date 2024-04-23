@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container{
+  max-width: 390px;
+  max-height: 844px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: rgb(209, 209, 209);
+  padding: 80px 20px ;
+}
+
+.oreder__menu--list{
+  list-style: none;
+
+}
+
+.order__menu--list__item{
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+
+.order__menu--list__item + .order__menu--list__item{
+  margin-top: 10px;
+}

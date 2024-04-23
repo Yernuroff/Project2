@@ -1,0 +1,73 @@
+.container{
+  max-width: 390px;
+  max-height: 844px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+.back__btn{
+  border: 1px solid #E8ECF4;
+  padding: 14px 17px;
+  background-color: white;
+  border-radius: 13px;
+  cursor: pointer;
+}
+.back__btn:hover{
+  background-color: rgb(224, 224, 224);
+}
+
+.choice__title{
+  text-align: center;
+  color: rgb(30, 35, 44);
+  font-size: 33px;
+  margin-bottom: 31px;
+}
+
+.choice__img--wrapper{
+  margin-bottom: 21px;
+}
+
+.choice__block{
+  margin-left: 37px;
+}
+.choice__blockk--btn{
+  border: 1px solid #FFC100;
+  background-color: white;
+  margin-bottom: 14px;
+  border-radius: 15px;
+  padding: 12px 67px 12px 12px;
+  cursor: pointer;
+}
+.choice__blockk--btn:hover{
+ background-color: rgb(252, 252, 252);
+}
+.choice__blockk--btn__title--driver::after{
+  content: url(../images/driver__icon.png);
+  width: 24px;
+  height: 24px;
+
+}
+
+.choice__blockk--btn__title--user::after{
+  content:url(../images/user__icon.png);
+  width: 24px;
+  height: 24px;
+}
+
+.choice__blockk--btn__title{
+  color: #FFC100;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: start;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+
+}
+
+.choice__blockk--btn__text{
+  color: rgba(0, 0, 0, 0.4);
+  
+}

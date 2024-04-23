@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.container{
+  max-width: 390px;
+  max-height: 844px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #F8F8FF;
+}
+
+
+.back__btn{
+  width: 41px;
+  height: 41px;
+  border: 1px solid #E8ECF4;
+  padding: 14px 17px;
+  background-color: white;
+  border-radius: 13px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.back__btn:hover{
+  background-color: rgb(224, 224, 224);
+}
+
+
+.header__block{
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.my__account--inner{
+  width: 380px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: start;
+  padding: 10px ;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.my__account--inner__img{
+  width: 80px;
+  height: 80px;
+  margin-right: 25px;
+}
+
+.my__account--icon{
+  width: 31px;
+  height: 31px;
+  margin-left: 14px;
+}
+
+.my__account--info__name{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.my__account--info__email{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.phone__number--block{
+  height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+
+.phone__number--icon{
+  width: 14px;
+  height: 14px;
+  margin-right: 15px;
+}
+
+
+.bank__block{
+  width: 380px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 10px;
+}
+.bank__block--inner{
+  display: flex;
+  align-items: center;
+}
+
+.bank__block--inner__icon{
+  width: 31px;
+  height: 31px;
+}
+
+.bank__block--inner__title{
+  font-size: 16px;
+  margin-right: 36px;
+}
+
+.bank__card--block{
+  display: flex;
+  align-items: center;
+}
+
+
+.bank__card--block{
+  margin-bottom: 22px;
+}
+.bank__card--block__img{
+  width: 75px;
+  height: 75px;
+  margin-right: 20px;
+}
+
+.bank__card--block__info--name{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bank__card--block__info--account{
+  font-size: 14px;
+  color: rgb(116, 116, 116);
+
+}
+
+.bank__card--block__info--btn{
+  border: none;
+  background: none;
+  color: rgb(255, 26, 0);
+  cursor: pointer;
+}
+
+.bank__card--add{
+  display: flex;
+}
+
+
+.bank__card--add__btn{
+  width: 76px;
+  height: 46px;
+  border: 1px dashed rgb(255, 193, 0);
+  color: rgb(255, 193, 0);
+  background-color: rgb(244, 245, 246);
+  border-radius: 15px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+
+.bank__card--add__text{
+  font-size: 16px;
+  color: rgb(116, 116, 116);
+} 
+
+.links{
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+}
+.links__block{
+  margin-bottom: 75px;
+}
+
+.links__block--btn{
+  margin-top: 20px;
+  cursor: pointer;
+}
+.links__block--btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 380px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 15px;
+  padding: 14px;  
+  margin-bottom: 10px;
+}
+
+.links__block--btn__icon{
+  width: 31px;
+  height: 31px;
+  margin-right: 17px;
+}
+
+.links__block--btn__text{
+  font-size: 16px;
+}
+
+.links__block--btn__vector{
+  width: 5px;
+  height: 10px;
+}
+.btn__block--edit{
+  display: flex;
+  flex-direction: column;
+}
+.delete__account{
+  border: none;
+  background: none;
+  margin-bottom: 30px;
+  color:rgb(255, 26, 0);
+  font-size: 14px;
+  cursor: pointer;
+}
+.exit{
+  width: 380px;
+  height: 55px;
+  background-color: rgb(255, 193, 0);
+  padding: 12px 149px;
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}

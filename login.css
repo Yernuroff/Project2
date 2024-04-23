@@ -1,0 +1,123 @@
+.container{
+  max-width: 390px;
+  max-height: 844px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+.back__btn{
+  border: 1px solid #E8ECF4;
+  padding: 14px 17px;
+  background-color: white;
+  border-radius: 13px;
+  cursor: pointer;
+}
+.back__btn:hover{
+  background-color: rgb(224, 224, 224);
+}
+
+.back__btn--block{
+  margin-bottom: 39px;
+}
+
+.login__title{
+  margin-bottom: 64px;
+}
+
+.login__form{
+  display: flex;
+  flex-direction: column;
+  /* padding: 0  15px;  */
+  margin-bottom: 100px;
+}
+
+.user__name{
+  margin-bottom: 15px;
+  border: 1px solid #E8ECF4;
+  border-radius:9px ;
+  padding: 20px 180px 20px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: rgb(247, 248, 249);
+}
+.phone__number{
+  border: 1px solid #E8ECF4;
+  border-radius:9px ;
+  padding: 20px 180px 20px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: rgb(247, 248, 249);
+  margin-bottom: 30px;
+}
+
+.phone_number--send__btn{
+  cursor: pointer;
+}
+
+.phone_number--send__btn--text{
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+
+
+}
+
+.phone_number--send__btn{
+  background-color: rgb(255, 193, 0);
+  border: none;
+  padding: 17px 134px;
+  border-radius: 9px;
+
+}
+
+.login__choice--block{
+  width: 348px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 152px;
+}
+
+
+.login__choice--block__text{
+  color: #6A707C;
+  font-size: 15px;
+}
+
+.login__choice--block__text::after{
+  content: url(../images/line__vector.png);
+
+}
+
+.login__choice--block__text::before{
+  content: url(../images/line__vector.png);
+}
+
+
+.login__choice__inner{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+
+}
+
+.login__choice__inner--btn{
+  border: 1px solid rgb(232, 236, 244);
+  background-color: white;
+  padding: 15px 42px;
+  height: 59px;
+  border-radius: 9px;
+}
+
+.question__text{
+  font-size: 16px;
+  color: rgb(30, 35, 44);
+  text-align: center;
+}
+
+.question__text--link-to-register{
+  text-decoration: none;
+  color: rgb(255, 193, 0);
+
+} 

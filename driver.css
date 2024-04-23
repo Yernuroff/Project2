@@ -1,0 +1,53 @@
+.container{
+  max-width: 390px;
+  max-height: 844px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+
+.arrow__btn{
+  padding-top: 10px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+.profile__icon--wrapper{
+  margin-left: 135px;
+  margin-top: 34px;
+  margin-bottom: 23px;
+}
+
+.profile__icon{
+  width: 80px;
+  height: 80px;
+}
+
+.driver__register--inpt{
+  max-width: 357px;
+  margin-bottom: 15px;
+  border: 1px solid #E8ECF4;
+  border-radius:9px ;
+  padding: 20px 180px 20px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: rgb(247, 248, 249);
+}
+
+
+.driver__register--btn{
+  background-color: rgb(255, 193, 0);
+  border: none;
+  padding: 17px 134px;
+  border-radius: 9px;
+}
+.driver__register--btn__text{
+  width: 100%;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+  width: 357px;
+}
